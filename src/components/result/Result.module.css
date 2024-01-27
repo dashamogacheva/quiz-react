@@ -1,0 +1,35 @@
+.resultWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trophyStyle {
+    width: 300px;
+    height: auto;
+    margin: 90px 0 40px 0;
+}
+
+.resultText {
+    font-size: 45px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 50px 0;
+}
+
+.restartBtn {
+    padding: 20px 25px;
+    font-size: 18px;
+    background-color: rgba(0, 135, 253, 0.82);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(42, 41, 41, 0.91);
+}
+
+.restartBtn:hover {
+    background-color: rgba(8, 103, 187, 0.82);
+    color: #ffffff;
+}
