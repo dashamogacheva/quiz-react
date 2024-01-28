@@ -1,0 +1,9 @@
+{
+  "startTitle": "Проверь свои знания React",
+  "startButton": "Погнали!",
+
+  "resultText_one": "Вы ответили на {{count}} вопрос из {{questions}}!",
+  "resultText_many": "Вы ответили на {{count}} вопросов из {{questions}}!",
+  "resultText_few": "Вы ответили на {{count}} вопросa из {{questions}}!",
+  "restartButton": "Попробовать снова"
+}

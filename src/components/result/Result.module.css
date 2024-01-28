@@ -14,15 +14,14 @@
 .resultText {
     font-size: 45px;
     font-weight: 600;
-    color: #000000;
+    color: #221449;
     margin: 0 0 50px 0;
 }
 
 .restartBtn {
     padding: 20px 25px;
     font-size: 18px;
-    background-color: rgba(0, 135, 253, 0.82);
-    border: none;
+    background-color: #00d5ff;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
@@ -30,6 +29,7 @@
 }
 
 .restartBtn:hover {
-    background-color: rgba(8, 103, 187, 0.82);
+    background-color: #0f9dbb;;
     color: #ffffff;
+    border-color: #ffffff;
 }

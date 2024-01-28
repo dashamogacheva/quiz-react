@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #f1f0f0;
+    border: none;
+    text-decoration: underline #221449;
+    color: #221449;
+    font-weight: 600;
+}
+
+.btn:hover {
+    text-decoration: underline #d10000;
+    color: #d10000;
+}
