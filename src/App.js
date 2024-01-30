@@ -1,11 +1,11 @@
 import './App.css';
-import Result from "./components/result";
-import Game from "./components/game";
 import {useState} from "react";
-import {questions} from './utils/data'
-import {StartComponent} from "./components/startComponent/StartComponent";
-import {LanguageButtons} from "./components/changeLanguage/ChangeLanguage";
 import {useTranslation} from "react-i18next";
+import {questions} from './utils/data.js'
+import Result from "./components/result/index.js";
+import Game from "./components/game/index.js";
+import StartComponent from "./components/startComponent/index.js";
+import LanguageButtons from "./components/changeLanguage/index.js";
 
 function App() {
     const [isStartGame, setIsStartGame] = useState(false);

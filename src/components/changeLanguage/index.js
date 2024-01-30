@@ -1,2 +1,2 @@
-import {ChangeLanguage} from './ChangeLanguage';
-export default ChangeLanguage;
+import {LanguageButtons} from './LanguageButtons.jsx';
+export default LanguageButtons;

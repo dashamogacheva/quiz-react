@@ -1,4 +1,4 @@
-import styles from './ChangeLanguage.module.css';
+import styles from './LanguageButtons.module.css';
 
 export const LanguageButtons = ({changeLanguage}) => {
     return (
