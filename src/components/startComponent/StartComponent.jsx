@@ -8,7 +8,7 @@ export const StartComponent = ({t, startGame}) => {
             <button className={styles.btn}
                     onClick={() => startGame(true)}
             >
-                {t('startButton')}
+                {t("startButton")}
             </button>
         </div>
     );
