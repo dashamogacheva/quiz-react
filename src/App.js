@@ -10,10 +10,10 @@ import {useTranslation} from "react-i18next";
 function App() {
     const [isStartGame, setIsStartGame] = useState(false);
     const [step, setStep] = useState(0);
-    const question = questions[step];
     const [correct, setCorrect] = useState(0);
-
     const {t, i18n} = useTranslation();
+    const question = questions[step];
+    const currentLanguage = i18n.language;
 
     function changeLanguage(language) {
         i18n.changeLanguage(language);
@@ -45,8 +45,9 @@ function App() {
                                 correct={correct}
                                 restartGame={restartGame}
                         /> :
-                        <Game step={step}
-                              question={question}
+                        <Game t={t}
+                              step={step}
+                              question={question[currentLanguage]}
                               handleClickStep={handleClickStep}
                         />
                 ) : <StartComponent t={t}
