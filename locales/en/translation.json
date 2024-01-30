@@ -1,8 +1,0 @@
-{
-  "startTitle": "Test your knowledge of React",
-  "startButton": "Let's go!",
-  "resultText_one": "You answered {{count}} question out of {{questions}} correctly!",
-  "resultText_other": "You answered {{count}} out of {{questions}} questions correctly!",
-  "restartButton": "Try again",
-  "errorMessage": "Oops... There is no translation for this question, please change the language!"
-}
